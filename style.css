@@ -3,6 +3,7 @@
 body { margin: 0; color: #e8f2f0; background: radial-gradient(circle at top right, #15393d, #07151c 62%); }
 main { max-width: 780px; margin: 0 auto; padding: 36px 24px 100px; }
 nav { display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: center; gap: 8px 16px; color: #a9c4c4; font-size: 14px; }
+html[dir="rtl"] nav { justify-content: flex-start; }
 .eyebrow { margin-top: 72px; color: #64e8d5; font-size: 12px; font-weight: 800; letter-spacing: .2em; }
 h1 { margin: 12px 0 8px; color: #fff; font-size: clamp(38px, 7vw, 64px); letter-spacing: -.04em; }
 .date { color: #9cb5b7; font-size: 14px; }
